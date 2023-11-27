@@ -1,9 +1,31 @@
 .content {
-    padding: 8rem;
+    padding: 3rem;
 }
 
 .grid {
     display: grid;
-    column-gap: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    column-gap: 5rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.character {
+    background-color: black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.characterImg {
+    width: 100%;
+    height: 30rem;
+}
+
+.characterName {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
 }
