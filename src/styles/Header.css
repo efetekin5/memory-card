@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    column-gap: -10rem;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1rem;
+    padding-right: 9rem;
+    padding-left: 3rem;
+}
+
+.footerHeader {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imdbLogo {
+    width: 13rem;
+}
+
+.scores {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.score {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
