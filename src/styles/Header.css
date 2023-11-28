@@ -5,7 +5,7 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
-    column-gap: -10rem;
+    column-gap: 5rem;
     align-items: center;
     font-size: 1rem;
     padding-right: 4rem;

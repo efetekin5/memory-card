@@ -17,7 +17,10 @@ export default function App() {
             ></Header>
 
             <Content
-                
+                score={score}
+                setScore={setScore}
+                bestScore={bestScore}
+                setBestScore={setBestScore}
             ></Content>
         </>
     )
