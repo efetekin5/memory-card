@@ -1,0 +1,19 @@
+.footer {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.7rem;
+    padding: 0.4rem;
+}
+
+.githubLogo {
+    width: 5rem;
+}
+
+.footerText {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
