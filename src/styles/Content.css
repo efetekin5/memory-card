@@ -14,18 +14,46 @@
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 1rem;
+    transition: transform 0.1s linear;
+}
+
+.character:hover {
+    transform: scale(1.1);
 }
 
 .characterImg {
     width: 100%;
-    height: 30rem;
+    height: 100%;
 }
 
 .characterName {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
+}
+
+@media (max-width: 790px) {
+    .character {
+        height: 97%;
+        width: 97%;
+    }
+
+    .characterImg {
+        height: 97%;
+    }
+
+    .grid {
+        justify-content: center;
+        width: 70%;
+        row-gap: 1rem;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        padding-left: 4rem;
+    }
 }

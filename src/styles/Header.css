@@ -4,12 +4,11 @@
     width: 100%;
     background-color: black;
     display: flex;
-    justify-content: space-between;
-    column-gap: 5rem;
+    justify-content: center;
+    column-gap: 10%;
     align-items: center;
     font-size: 1rem;
-    padding-right: 4rem;
-    padding-left: 8rem;
+    padding: 1.3rem;
 }
 
 .footerHeader {
@@ -19,7 +18,7 @@
 }
 
 .gameOfThronesLogo {
-    width: 8rem;
+    width: 9rem;
 }
 
 .scores {
@@ -32,4 +31,31 @@
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 1.7rem;
+}
+
+@media (max-width: 1080px) {
+    .footerHeader {
+        font-size: 2rem;
+    }
+    
+    .header {
+        padding-left: 2rem;
+    }
+
+    .score {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 734px){
+    .header{
+        flex-direction: column;
+        row-gap: 1rem;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .footerHeader {
+        padding-left: 2.2rem;
+    }
 }
